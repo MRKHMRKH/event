@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .search{
+            position:relative;
+            height: 15px;
+            width: 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition-duration: 500ms;
+            border: 1px solid wheat;
+            color: transparent;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            font-size: 15px;
+            background-size: 22px;
+            background-position: 45% 50%;
+        }
+        .search:hover{
+            cursor: pointer;
+            background-size: 22px;
+            border: 1px solid #FF9950;
+            background-position: 45% 50%;
+
+        }.search:focus{
+            width: 200px;
+            cursor: pointer;
+            color: white;
+            padding-left: 40px;
+            background-color: transparent;
+            outline: none;
+            border: 1px solid #FF9950;background-size: 22px;
+            background-position: 10px 50%;
+        }
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <input class="search">
+</body>
+</html>
